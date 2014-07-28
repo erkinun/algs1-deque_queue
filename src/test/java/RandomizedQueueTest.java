@@ -45,7 +45,10 @@ public class RandomizedQueueTest {
             queueList.add(deckItem);
         }
 
-        assertArrayEquals(array, queueList.toArray());
+        ArrayList<Integer> templIst = new ArrayList<Integer>(Arrays.asList(array));
+        for ( Integer item : templIst ){
+            assertTrue( queueList.contains(item) );
+        }
     }
 
     @Test
