@@ -9,9 +9,10 @@ public class Subset {
         int lengthOfArgs = args.length;
 
         RandomizedQueue<String> randomizedQueue = new RandomizedQueue<String>();
-        for( int i = 1; i < lengthOfArgs; i++ ){
-            randomizedQueue.enqueue(args[i]);
+        while ( !StdIn.isEmpty() ){
+            randomizedQueue.enqueue(StdIn.readString());
         }
+
 
         for ( int i = 0; i < k; i++ ){
             StdOut.println(randomizedQueue.dequeue());
