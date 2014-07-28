@@ -1,7 +1,7 @@
 apply plugin: 'java'
 apply plugin: 'application'
 
-mainClassName = "Main"
+mainClassName = "Deque"
 
 sourceCompatibility = 1.5
 version = '1.0'

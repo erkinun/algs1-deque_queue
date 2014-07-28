@@ -113,12 +113,49 @@ public class Deque<Item> implements Iterable<Item> {
     }
 
     public static void main(String[] args){
-            // unit testing
+        // unit testing
+        Deque<Integer> deque = new Deque<Integer>();
+        deque.addFirst(5);
+        deque.addFirst(10);
+
+        Integer first = deque.removeFirst();
+
+        //TODO add more
+
+        deque.addFirst(15);
+        deque.addFirst(20);
+        deque.addFirst(25);
+
+        for ( Integer item : deque ){
+            StdOut.print(item + ", ");
+        }
     }
 
     @Override
     public Iterator<Item> iterator() {
-        return null;
+        return new DequeIterator();
+    }
+
+    private class DequeIterator implements Iterator<Item>{
+
+        private Node current = first;
+
+        @Override
+        public boolean hasNext() {
+            return current != null;
+        }
+
+        @Override
+        public Item next() {
+            Item nextItem = current.item;
+            current = current.next;
+            return nextItem;
+        }
+
+        @Override
+        public void remove() {
+           throw new UnsupportedOperationException("trying to remove from iterator");
+        }
     }
 
     private void checkForNull(Item item) {
