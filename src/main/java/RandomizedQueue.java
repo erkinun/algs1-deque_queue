@@ -105,7 +105,7 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
 
             StdOut.println("creating the temp array");
 
-            while (items[i] != null) {
+            while (i < items.length && items[i] != null) {
                 tempArray[i] = items[i];
                 i++;
             }
