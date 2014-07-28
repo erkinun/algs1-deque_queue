@@ -10,21 +10,22 @@ public class Deque<Item> implements Iterable<Item> {
     private int size;
 
     //will use a linked list impl here
-    private class Node{
-        Item item;
-        Node next;
-        Node previous;
+    private class Node {
+        private Item item;
+        private Node next;
+        private Node previous;
     }
-    public Deque(){
+    public Deque() {
         size = 0;
-        first = last = null;
+        first = null;
+        last = null;
     }
 
-    public boolean isEmpty(){
+    public boolean isEmpty() {
         return size == 0;
     }
 
-    public int size(){
+    public int size() {
         return size;
     }
     public void addFirst(Item item) {
@@ -36,7 +37,7 @@ public class Deque<Item> implements Iterable<Item> {
         firstNode.next = null;
         firstNode.previous = null;
 
-        if ( first == null ){  //meaning deque is empty
+        if (first == null) {  //meaning deque is empty
             first = firstNode;
             last = first;
         } else {
@@ -50,7 +51,7 @@ public class Deque<Item> implements Iterable<Item> {
 
     }
 
-    public void addLast(Item item){
+    public void addLast(Item item) {
 
         checkForNull(item);
 
@@ -60,7 +61,7 @@ public class Deque<Item> implements Iterable<Item> {
         lastNode.next = null;
         lastNode.previous = null;
 
-        if ( last == null ){  //meaning also deque is empty
+        if (last == null) {  //meaning also deque is empty
             last = lastNode;
             first = last;
         } else {
@@ -73,7 +74,7 @@ public class Deque<Item> implements Iterable<Item> {
         size++;
 
     }
-    public Item removeFirst(){
+    public Item removeFirst() {
         // delete and return the item at the front
 
         checkForEmptyRemove();
@@ -82,17 +83,18 @@ public class Deque<Item> implements Iterable<Item> {
 
         size--;
 
-        if ( isEmpty() ){
-            first = last = null;
+        if (isEmpty()) {
+            first = null;
+            last = null;
         }
-        else{
+        else {
             first = returnNode.next;
             first.previous = null;
         }
 
         return returnNode.item;
     }
-    public Item removeLast(){
+    public Item removeLast() {
         // delete and return the item at the end
 
         checkForEmptyRemove();
@@ -101,8 +103,9 @@ public class Deque<Item> implements Iterable<Item> {
 
         size--;
 
-        if ( isEmpty() ){
-            last = first = null;
+        if (isEmpty()) {
+            last = null;
+            first = null;
         } else {
             last = returnNode.previous;
             last.next = null;
@@ -112,21 +115,21 @@ public class Deque<Item> implements Iterable<Item> {
 
     }
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         // unit testing
-        Deque<Integer> deque = new Deque<Integer>();
-        deque.addFirst(5);
-        deque.addFirst(10);
+        Deque<String> deque = new Deque<String>();
+        deque.addFirst("5");
+        deque.addFirst("10");
 
-        Integer first = deque.removeFirst();
+        String first = deque.removeFirst();
 
         //TODO add more
 
-        deque.addFirst(15);
-        deque.addFirst(20);
-        deque.addFirst(25);
+        deque.addFirst("15");
+        deque.addFirst("20");
+        deque.addFirst("25");
 
-        for ( Integer item : deque ){
+        for (String item : deque) {
             StdOut.print(item + ", ");
         }
     }
@@ -136,7 +139,7 @@ public class Deque<Item> implements Iterable<Item> {
         return new DequeIterator();
     }
 
-    private class DequeIterator implements Iterator<Item>{
+    private class DequeIterator implements Iterator<Item> {
 
         private Node current = first;
 
@@ -159,13 +162,13 @@ public class Deque<Item> implements Iterable<Item> {
     }
 
     private void checkForNull(Item item) {
-        if ( item == null ){
-            throw new NullPointerException("trying to insert null item") ;
+        if (item == null) {
+            throw new NullPointerException("trying to insert null item");
         }
     }
 
-    private void checkForEmptyRemove(){
-        if ( isEmpty() ){
+    private void checkForEmptyRemove() {
+        if (isEmpty()) {
             throw new NoSuchElementException("trying to remove from an empty deque");
         }
     }
