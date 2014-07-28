@@ -2,6 +2,7 @@ import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Iterator;
 
 import static org.junit.Assert.*;
 
@@ -92,7 +93,26 @@ public class RandomizedQueueTest {
 
     @Test
     public void testIterator() throws Exception {
-        testEnqueue();
+
+        Integer[] array = new Integer[]{5,10,15};
+
+        for ( Integer number: array ){
+            randomizedQueue.enqueue(number);
+        }
+
+        Iterator<Integer> iter1 = randomizedQueue.iterator();
+        Iterator<Integer> iter2 = randomizedQueue.iterator();
+
+        while( iter1.hasNext() ){
+            Integer item = iter1.next();
+            StdOut.println("iter1: " + item);
+        }
+
+        while( iter2.hasNext() ){
+            Integer item = iter2.next();
+            StdOut.println("iter2: " + item);
+        }
+
     }
 
     @Test

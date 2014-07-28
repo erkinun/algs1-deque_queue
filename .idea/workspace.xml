@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b30e7556-e3da-48d7-b36a-c7adbc0baf18" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/RandomizedQueue.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/RandomizedQueueTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/RandomizedQueue.java" afterPath="$PROJECT_DIR$/src/main/java/RandomizedQueue.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/RandomizedQueueTest.java" afterPath="$PROJECT_DIR$/src/test/java/RandomizedQueueTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="queues.iws" />
@@ -94,8 +93,8 @@
       <file leaf-file-name="Deque.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Deque.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="2685">
-              <caret line="17" column="57" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="2226" max-vertical-offset="2685">
+              <caret line="160" column="4" selection-start-line="160" selection-start-column="4" selection-end-line="170" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#451#452#0" expanded="true" />
@@ -114,28 +113,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RandomizedQueue.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="RandomizedQueue.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/RandomizedQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.3461537" vertical-offset="0" max-vertical-offset="690">
-              <caret line="11" column="33" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-              <folding />
+            <state vertical-scroll-proportion="0.82678986" vertical-offset="992" max-vertical-offset="2790">
+              <caret line="90" column="31" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1832#1841#0" expanded="true" />
+                <element signature="e#3520#3521#0" expanded="true" />
+                <element signature="e#3563#3564#0" expanded="true" />
+                <element signature="e#3887#3888#0" expanded="true" />
+                <element signature="e#3983#3984#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RandomizedQueueTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="RandomizedQueueTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/RandomizedQueueTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.5882353" vertical-offset="546" max-vertical-offset="1425">
-              <caret line="89" column="29" selection-start-line="89" selection-start-column="9" selection-end-line="89" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1311" max-vertical-offset="1905">
+              <caret line="96" column="8" selection-start-line="96" selection-start-column="8" selection-end-line="113" selection-end-column="9" />
               <folding>
-                <element signature="e#198#207#0" expanded="true" />
-                <element signature="e#959#968#0" expanded="true" />
-                <element signature="e#1422#1431#0" expanded="true" />
-                <element signature="e#1959#1968#0" expanded="true" />
-                <element signature="e#2345#2346#0" expanded="true" />
-                <element signature="e#2374#2375#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#250#259#0" expanded="true" />
+                <element signature="e#1011#1020#0" expanded="true" />
+                <element signature="e#1474#1483#0" expanded="true" />
+                <element signature="e#2062#2071#0" expanded="true" />
+                <element signature="e#2270#2279#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -144,22 +150,12 @@
       <file leaf-file-name="DequeTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/DequeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="1200">
-              <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="38" selection-end-column="44" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1200">
+              <caret line="7" column="39" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
               <folding>
                 <element signature="e#184#185#0" expanded="true" />
                 <element signature="e#228#229#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Assert.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.11/28e0ad201304e4a4abf999ca0570b7cffc352c3c/junit-4.11-sources.jar!/org/junit/Assert.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="7434" max-vertical-offset="12195">
-              <caret line="540" column="23" selection-start-line="540" selection-start-column="23" selection-end-line="540" selection-end-column="23" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -469,8 +465,8 @@
         <option value="$PROJECT_DIR$/src/test/java/DequeTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Deque.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/java/RandomizedQueue.java" />
         <option value="$PROJECT_DIR$/src/test/java/RandomizedQueueTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/RandomizedQueue.java" />
       </list>
     </option>
   </component>
@@ -585,6 +581,10 @@
               <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stdlib.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -611,6 +611,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
@@ -620,7 +621,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.queues [run]">
+  <component name="RunManager" selected="Application.RandomizedQueue">
     <configuration default="false" name="queues [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -657,6 +658,23 @@
       </ExternalSystemSettings>
       <RunnerSettings RunnerId="ExternalSystemTaskRunner" />
       <ConfigurationWrapper RunnerId="ExternalSystemTaskRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="RandomizedQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="RandomizedQueue" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="queues" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -932,14 +950,16 @@
       <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Gradle.queues [run]" />
       <item index="1" class="java.lang.String" itemvalue="Gradle.queues [test]" />
+      <item index="2" class="java.lang.String" itemvalue="Application.RandomizedQueue" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Gradle.queues [run]" />
-        <item index="1" class="java.lang.String" itemvalue="Gradle.queues [test]" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Application.RandomizedQueue" />
+        <item index="1" class="java.lang.String" itemvalue="Gradle.queues [run]" />
+        <item index="2" class="java.lang.String" itemvalue="Gradle.queues [test]" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -956,7 +976,7 @@
       <changelist id="b30e7556-e3da-48d7-b36a-c7adbc0baf18" name="Default" comment="" />
       <created>1406533166127</created>
       <updated>1406533166127</updated>
-      <workItem from="1406533169110" duration="8930000" />
+      <workItem from="1406533169110" duration="14654000" />
     </task>
     <task id="LOCAL-00001" summary="first TDD passed, now iterators">
       <created>1406539831447</created>
@@ -966,11 +986,19 @@
       <created>1406541438699</created>
       <updated>1406541438699</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="written tests">
+      <created>1406544574077</created>
+      <updated>1406544574077</updated>
+    </task>
+    <task id="LOCAL-00004" summary="randomized queue done without iterators">
+      <created>1406548984125</created>
+      <updated>1406548984125</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8930000" />
+    <option name="totallyTimeSpent" value="14654000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="22" width="1436" height="878" extended-state="6" />
@@ -989,7 +1017,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20444763" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1022,7 +1050,9 @@
     </option>
     <MESSAGE value="first TDD passed, now iterators" />
     <MESSAGE value="iterator for deque done" />
-    <option name="LAST_COMMIT_MESSAGE" value="iterator for deque done" />
+    <MESSAGE value="written tests" />
+    <MESSAGE value="randomized queue done without iterators" />
+    <option name="LAST_COMMIT_MESSAGE" value="randomized queue done without iterators" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1032,36 +1062,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.11/28e0ad201304e4a4abf999ca0570b7cffc352c3c/junit-4.11-sources.jar!/org/junit/Assert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="7434" max-vertical-offset="12195">
-          <caret line="540" column="23" selection-start-line="540" selection-start-column="23" selection-end-line="540" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DequeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="1200">
-          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="38" selection-end-column="44" />
-          <folding>
-            <element signature="e#184#185#0" expanded="true" />
-            <element signature="e#228#229#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
-          <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
-          <folding>
-            <element signature="e#106#107#0" expanded="true" />
-            <element signature="e#164#165#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.0" vertical-offset="0" max-vertical-offset="315">
@@ -1070,10 +1070,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DequeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1200">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+          <folding>
+            <element signature="e#184#185#0" expanded="true" />
+            <element signature="e#228#229#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Deque.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="2685">
-          <caret line="17" column="57" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="2226" max-vertical-offset="2685">
+          <caret line="160" column="4" selection-start-line="160" selection-start-column="4" selection-end-line="170" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#451#452#0" expanded="true" />
@@ -1091,25 +1102,83 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/RandomizedQueue.java">
+    <entry file="jar://$PROJECT_DIR$/lib/stdlib.jar!/StdRandom.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.3461537" vertical-offset="0" max-vertical-offset="690">
-          <caret line="11" column="33" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.35154393" vertical-offset="272" max-vertical-offset="975">
+          <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/stdlib.jar!/StdRandom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="467" max-vertical-offset="4830">
+          <caret line="95" column="62" selection-start-line="95" selection-start-column="7" selection-end-line="95" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.11/28e0ad201304e4a4abf999ca0570b7cffc352c3c/junit-4.11-sources.jar!/org/junit/internal/ComparisonCriteria.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="182" max-vertical-offset="1200">
+          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.11/28e0ad201304e4a4abf999ca0570b7cffc352c3c/junit-4.11-sources.jar!/org/junit/Assert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3692" max-vertical-offset="12195">
+          <caret line="279" column="17" selection-start-line="279" selection-start-column="17" selection-end-line="279" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1397" max-vertical-offset="16695">
+          <caret line="149" column="11" selection-start-line="149" selection-start-column="11" selection-end-line="149" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+          <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+          <folding>
+            <element signature="e#106#107#0" expanded="true" />
+            <element signature="e#164#165#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/RandomizedQueueTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.5882353" vertical-offset="546" max-vertical-offset="1425">
-          <caret line="89" column="29" selection-start-line="89" selection-start-column="9" selection-end-line="89" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1311" max-vertical-offset="1905">
+          <caret line="96" column="8" selection-start-line="96" selection-start-column="8" selection-end-line="113" selection-end-column="9" />
           <folding>
-            <element signature="e#198#207#0" expanded="true" />
-            <element signature="e#959#968#0" expanded="true" />
-            <element signature="e#1422#1431#0" expanded="true" />
-            <element signature="e#1959#1968#0" expanded="true" />
-            <element signature="e#2345#2346#0" expanded="true" />
-            <element signature="e#2374#2375#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#250#259#0" expanded="true" />
+            <element signature="e#1011#1020#0" expanded="true" />
+            <element signature="e#1474#1483#0" expanded="true" />
+            <element signature="e#2062#2071#0" expanded="true" />
+            <element signature="e#2270#2279#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/RandomizedQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.82678986" vertical-offset="992" max-vertical-offset="2790">
+          <caret line="90" column="31" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1832#1841#0" expanded="true" />
+            <element signature="e#3520#3521#0" expanded="true" />
+            <element signature="e#3563#3564#0" expanded="true" />
+            <element signature="e#3887#3888#0" expanded="true" />
+            <element signature="e#3983#3984#0" expanded="true" />
           </folding>
         </state>
       </provider>

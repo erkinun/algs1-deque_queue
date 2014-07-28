@@ -63,11 +63,97 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
     }
     public Iterator<Item> iterator(){
         // return an independent iterator over items in random order
-        throw new RuntimeException();
+        return new RandomQueueIterator(elements, size);
     }
     public static void main(String[] args){
             // unit testing
-        throw new RuntimeException();
+        Integer[] array = new Integer[]{5,10,15, 1, 2, 3, 22, 101, 50};
+        RandomizedQueue<Integer> randomizedQueue = new RandomizedQueue<Integer>();
+
+        for ( Integer number: array ){
+            randomizedQueue.enqueue(number);
+        }
+
+        Iterator<Integer> iter1 = randomizedQueue.iterator();
+        Iterator<Integer> iter2 = randomizedQueue.iterator();
+
+        while( iter1.hasNext() ){
+            Integer item = iter1.next();
+            StdOut.println("iter1: " + item);
+        }
+
+        while( iter2.hasNext() ){
+            Integer item = iter2.next();
+            StdOut.println("iter2: " + item);
+        }
+
+    }
+
+    private class RandomQueueIterator implements Iterator<Item>{
+
+        private Item[] iteratorItems;
+        private int iterSize;
+
+        RandomQueueIterator(Item[] items, int length){
+
+            int itemsLen = length;
+            iteratorItems = (Item[])new Object[itemsLen];
+
+
+            Item[] tempArray = (Item[])new Object[itemsLen];
+            int i = 0;
+
+            StdOut.println("creating the temp array");
+
+            while( items[i] != null ){
+                tempArray[i] = items[i];
+                i++;
+            }
+
+            StdOut.println("copying them in random order");
+
+            iterSize = 0;
+
+            while( itemsLen > 0 ){
+                int index = StdRandom.uniform(itemsLen);
+
+                Item elem = tempArray[index];
+                iteratorItems[iterSize] = elem;
+
+                tempArray[index] = tempArray[itemsLen-1];
+                tempArray[itemsLen-1] = null;
+
+                itemsLen--;
+                iterSize++;
+            }
+
+            StdOut.println("finished creating the iterator");
+            StdOut.println("length of iterator: " + iterSize);
+
+        }
+
+        @Override
+        public boolean hasNext() {
+            return iterSize > 0;
+        }
+
+        @Override
+        public Item next() {
+
+            if ( !hasNext() ){
+                throw new NoSuchElementException("empty iter!");
+            }
+
+            int index = iterSize - 1;
+            iterSize--;
+            return iteratorItems[index];
+
+        }
+
+        @Override
+        public void remove() {
+            throw new UnsupportedOperationException("cannot use remove in iterator");
+        }
     }
 
     private void resize(int capacity){
