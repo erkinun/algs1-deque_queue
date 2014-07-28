@@ -151,7 +151,7 @@ public class Deque<Item> implements Iterable<Item> {
         @Override
         public Item next() {
 
-            if (!hasNext()){
+            if (!hasNext()) {
                 throw new NoSuchElementException("there are no items in iter");
             }
 
