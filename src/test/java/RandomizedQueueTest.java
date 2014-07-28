@@ -1,6 +1,7 @@
 import org.junit.Test;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 import static org.junit.Assert.*;
 
@@ -60,7 +61,10 @@ public class RandomizedQueueTest {
         queueList.add(randomizedQueue.dequeue());
         queueList.add(randomizedQueue.dequeue());
 
-        assertArrayEquals(array, queueList.toArray());
+        for( Integer intArray : array ){
+            assertTrue(queueList.contains(intArray));
+        }
+
         assertEquals(true, randomizedQueue.isEmpty());
     }
 
@@ -77,7 +81,11 @@ public class RandomizedQueueTest {
         queueList.add(randomizedQueue.sample());
         queueList.add(randomizedQueue.sample());
 
-        assertArrayEquals(array, queueList.toArray());
+        ArrayList<Integer> temp = new ArrayList<Integer>(Arrays.asList(array));
+        for ( Integer queueInt : queueList ){
+            assertTrue(temp.contains(queueInt));
+        }
+
         assertEquals(false, randomizedQueue.isEmpty());
         assertEquals(3, randomizedQueue.size());
     }
