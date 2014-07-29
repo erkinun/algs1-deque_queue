@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b30e7556-e3da-48d7-b36a-c7adbc0baf18" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Deque.java" afterPath="$PROJECT_DIR$/src/main/java/Deque.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/RandomizedQueue.java" afterPath="$PROJECT_DIR$/src/main/java/RandomizedQueue.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -70,8 +69,8 @@
       <file leaf-file-name="build.gradle" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.6" vertical-offset="0" max-vertical-offset="330">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            <state vertical-scroll-proportion="-8.4" vertical-offset="0" max-vertical-offset="330">
+              <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -90,8 +89,8 @@
       <file leaf-file-name="Deque.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Deque.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2014" max-vertical-offset="2760">
-              <caret line="148" column="44" selection-start-line="148" selection-start-column="9" selection-end-line="148" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="2064" max-vertical-offset="2760">
+              <caret line="160" column="43" selection-start-line="160" selection-start-column="9" selection-end-line="160" selection-end-column="9" />
               <folding>
                 <element signature="e#492#493#0" expanded="true" />
                 <element signature="e#524#525#0" expanded="true" />
@@ -110,8 +109,8 @@
       <file leaf-file-name="RandomizedQueue.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/RandomizedQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6995516" vertical-offset="1308" max-vertical-offset="2715">
-              <caret line="109" column="32" selection-start-line="109" selection-start-column="20" selection-end-line="109" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.26233184" vertical-offset="1548" max-vertical-offset="2610">
+              <caret line="112" column="24" selection-start-line="112" selection-start-column="24" selection-end-line="112" selection-end-column="24" />
               <folding>
                 <element signature="e#1832#1841#0" expanded="true" />
               </folding>
@@ -210,6 +209,34 @@
               <option name="externalSystemIdString" value="GRADLE" />
               <option name="taskNames">
                 <list>
+                  <option value="build" />
+                </list>
+              </option>
+            </ExternalSystemSettings>
+          </option>
+        </ExternalTaskExecutionInfo>
+        <ExternalTaskExecutionInfo>
+          <option name="executorId" value="Run" />
+          <option name="settings">
+            <ExternalSystemSettings>
+              <option name="externalProjectPath" value="$PROJECT_DIR$" />
+              <option name="externalSystemIdString" value="GRADLE" />
+              <option name="taskNames">
+                <list>
+                  <option value="run" />
+                </list>
+              </option>
+            </ExternalSystemSettings>
+          </option>
+        </ExternalTaskExecutionInfo>
+        <ExternalTaskExecutionInfo>
+          <option name="executorId" value="Run" />
+          <option name="settings">
+            <ExternalSystemSettings>
+              <option name="externalProjectPath" value="$PROJECT_DIR$" />
+              <option name="externalSystemIdString" value="GRADLE" />
+              <option name="taskNames">
+                <list>
                   <option value="checkstyleMain" />
                 </list>
               </option>
@@ -238,35 +265,7 @@
               <option name="externalSystemIdString" value="GRADLE" />
               <option name="taskNames">
                 <list>
-                  <option value="build" />
-                </list>
-              </option>
-            </ExternalSystemSettings>
-          </option>
-        </ExternalTaskExecutionInfo>
-        <ExternalTaskExecutionInfo>
-          <option name="executorId" value="Run" />
-          <option name="settings">
-            <ExternalSystemSettings>
-              <option name="externalProjectPath" value="$PROJECT_DIR$" />
-              <option name="externalSystemIdString" value="GRADLE" />
-              <option name="taskNames">
-                <list>
                   <option value="clean" />
-                </list>
-              </option>
-            </ExternalSystemSettings>
-          </option>
-        </ExternalTaskExecutionInfo>
-        <ExternalTaskExecutionInfo>
-          <option name="executorId" value="Run" />
-          <option name="settings">
-            <ExternalSystemSettings>
-              <option name="externalProjectPath" value="$PROJECT_DIR$" />
-              <option name="externalSystemIdString" value="GRADLE" />
-              <option name="taskNames">
-                <list>
-                  <option value="run" />
                 </list>
               </option>
             </ExternalSystemSettings>
@@ -430,7 +429,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="2813096409000" />
+        <entry key="$PROJECT_DIR$" value="2813098522000" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -553,9 +552,9 @@
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/test/java/DequeTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/RandomizedQueueTest.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/Subset.java" />
         <option value="$PROJECT_DIR$/src/main/java/Deque.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/RandomizedQueue.java" />
       </list>
     </option>
@@ -671,7 +670,7 @@
       <recent name="$PROJECT_DIR$/config/checkstyle" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RandomizedQueue">
+  <component name="RunManager" selected="Gradle.queues [build]">
     <configuration default="false" name="queues [distZip]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -702,25 +701,6 @@
         <option name="taskNames">
           <list>
             <option value="build" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <RunnerSettings RunnerId="ExternalSystemTaskRunner" />
-      <ConfigurationWrapper RunnerId="ExternalSystemTaskRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="queues [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="clean" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -763,6 +743,25 @@
       <envs />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="queues [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="run" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <RunnerSettings RunnerId="ExternalSystemTaskRunner" />
+      <ConfigurationWrapper RunnerId="ExternalSystemTaskRunner" />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -1041,17 +1040,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Gradle.queues [distZip]" />
       <item index="1" class="java.lang.String" itemvalue="Gradle.queues [build]" />
-      <item index="2" class="java.lang.String" itemvalue="Gradle.queues [clean]" />
-      <item index="3" class="java.lang.String" itemvalue="Gradle.queues [checkstyleMain]" />
-      <item index="4" class="java.lang.String" itemvalue="Application.RandomizedQueue" />
+      <item index="2" class="java.lang.String" itemvalue="Gradle.queues [checkstyleMain]" />
+      <item index="3" class="java.lang.String" itemvalue="Application.RandomizedQueue" />
+      <item index="4" class="java.lang.String" itemvalue="Gradle.queues [run]" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.RandomizedQueue" />
-        <item index="1" class="java.lang.String" itemvalue="Gradle.queues [checkstyleMain]" />
-        <item index="2" class="java.lang.String" itemvalue="Gradle.queues [distZip]" />
-        <item index="3" class="java.lang.String" itemvalue="Gradle.queues [build]" />
-        <item index="4" class="java.lang.String" itemvalue="Gradle.queues [clean]" />
+        <item index="0" class="java.lang.String" itemvalue="Gradle.queues [build]" />
+        <item index="1" class="java.lang.String" itemvalue="Gradle.queues [run]" />
+        <item index="2" class="java.lang.String" itemvalue="Application.RandomizedQueue" />
+        <item index="3" class="java.lang.String" itemvalue="Gradle.queues [checkstyleMain]" />
+        <item index="4" class="java.lang.String" itemvalue="Gradle.queues [distZip]" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -1070,7 +1069,7 @@
       <updated>1406533166127</updated>
       <workItem from="1406533169110" duration="15325000" />
       <workItem from="1406561325604" duration="290000" />
-      <workItem from="1406561691778" duration="3514000" />
+      <workItem from="1406561691778" duration="4562000" />
     </task>
     <task id="LOCAL-00001" summary="first TDD passed, now iterators">
       <created>1406539831447</created>
@@ -1104,11 +1103,19 @@
       <created>1406564860528</created>
       <updated>1406564860528</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="some fixes for assesment report">
+      <created>1406565221514</created>
+      <updated>1406565221514</updated>
+    </task>
+    <task id="LOCAL-00010" summary="simple checkstyle fix">
+      <created>1406565308329</created>
+      <updated>1406565308329</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19129000" />
+    <option name="totallyTimeSpent" value="20177000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="22" width="1436" height="878" extended-state="6" />
@@ -1166,7 +1173,9 @@
     <MESSAGE value="subset done" />
     <MESSAGE value="subset fix" />
     <MESSAGE value="checkstyle changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="checkstyle changes" />
+    <MESSAGE value="some fixes for assesment report" />
+    <MESSAGE value="simple checkstyle fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="simple checkstyle fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1382,14 +1391,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.6" vertical-offset="0" max-vertical-offset="330">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/checkstyle/checkstyle.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4695">
@@ -1408,10 +1409,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.4" vertical-offset="0" max-vertical-offset="330">
+          <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Deque.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2014" max-vertical-offset="2760">
-          <caret line="148" column="44" selection-start-line="148" selection-start-column="9" selection-end-line="148" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="2064" max-vertical-offset="2760">
+          <caret line="160" column="43" selection-start-line="160" selection-start-column="9" selection-end-line="160" selection-end-column="9" />
           <folding>
             <element signature="e#492#493#0" expanded="true" />
             <element signature="e#524#525#0" expanded="true" />
@@ -1428,8 +1437,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/RandomizedQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6995516" vertical-offset="1308" max-vertical-offset="2715">
-          <caret line="109" column="32" selection-start-line="109" selection-start-column="20" selection-end-line="109" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.26233184" vertical-offset="1548" max-vertical-offset="2610">
+          <caret line="112" column="24" selection-start-line="112" selection-start-column="24" selection-end-line="112" selection-end-column="24" />
           <folding>
             <element signature="e#1832#1841#0" expanded="true" />
           </folding>

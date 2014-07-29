@@ -103,14 +103,10 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
             Item[] tempArray = (Item[]) new Object[itemsLen];
             int i = 0;
 
-            StdOut.println("creating the temp array");
-
             while (i < items.length && items[i] != null) {
                 tempArray[i] = items[i];
                 i++;
             }
-
-            StdOut.println("copying them in random order");
 
             iterSize = 0;
 
@@ -126,9 +122,6 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
                 itemsLen--;
                 iterSize++;
             }
-
-            StdOut.println("finished creating the iterator");
-            StdOut.println("length of iterator: " + iterSize);
 
         }
 
